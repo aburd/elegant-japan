@@ -1,22 +1,18 @@
 {
   "name": "elegant-japan",
-  "version": "1.0.0",
-  "description": "A store for selling Japanese goods",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aburd/elegant-japan.git"
-  },
-  "keywords": [
-    "e-commerce"
-  ],
-  "author": "Aaron Burdick",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aburd/elegant-japan/issues"
-  },
-  "homepage": "https://github.com/aburd/elegant-japan#readme"
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "hbs": "~4.0.1",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  }
 }
